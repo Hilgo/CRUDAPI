@@ -7,9 +7,9 @@ Ese é um repositório de um simples CRUD em c# utilizando padrão com Service e
 - [Overview](#overview)
 - [Tecnologias](#tecnologias)
 - [Setup](#setup)
-- [Testes](#tests)
-- [Project Structure](#project-structure)
-- [Exemplo de Request](#exemplo-request)
+- [Testes](#testes)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Exemplos de Request](#exemplos-de-request)
 
 
 ## Overview
@@ -34,6 +34,7 @@ cd CRUDAPI
 dotnet restore
 3. Compile o projeto:
 dotnet build
+
 ## Testes
 
 Para rodar os testes utilize o comando:
@@ -50,7 +51,7 @@ dotnet test
   - `Services/`: Contémos testes do serviço da API.
 
 
-##Exemplo de Request:
+##Exemplos de Request:
 
 - request de listar todos os Produtos: /Produto - GET
 - request de incluir Produto: /Produto - POST -
