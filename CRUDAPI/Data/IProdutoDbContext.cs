@@ -5,7 +5,7 @@ namespace CRUDAPI.Data
 {
     public interface IProdutoDbContext
     {
-        DbSet<Produto> Produto { get; set; }
+        DbSet<Produto> Produtos { get; set; }
 
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
